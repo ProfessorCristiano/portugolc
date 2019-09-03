@@ -18,7 +18,7 @@
     #define caractere char
     #define cadeia string
     #define pula endl
-    #define 
+    
 
 	void espera(unsigned long mseconds);
 	
