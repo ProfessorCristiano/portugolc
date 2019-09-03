@@ -1,35 +1,31 @@
+#ifndef portugolc_h
+#define portugolc_h
 
-
-
-#ifndef IoT_h
-#define IoT_h
-
-	#include "Arduino.h"
-	#include "Servo.h"
-	#define ENTRADA   INPUT
-	#define SAIDA     OUTPUT
-    #define LIGADO    0
-    #define DESLIGADO 1
+    #define leia std::cin>>
+    #define escreva std::cout<<
     #define se        if 
     #define senao     else
     #define repita(x) for (int _Iot_counter=0; _Iot_counter < x ; _Iot_counter++)
-    #define Numero    int
-    
+    #define para for
+    #define while enquanto
+    #define faca do
+    #define escolha switch
+    #define caso case
+    #define inteiro int
+    #define longo long
+    #define real float
+    #define boleano boolean
+    #define caractere char
+    #define cadeia string
+    #define pula endl
+    #define 
 
-	void    acendeLed(int pin);
-	void    apagaLed(int pin);
-	void    espera(long mili);
-	void    defineLed(int pin);
-	void    brilhaLed(int pin, int brilho);
-	void    botao(int pin);
-	uint8_t verificaBotao(int pin);
-	int     botaoLigado(int pin);
-	int     botaoDesligado(int pin);
+	void espera(unsigned long mseconds);
+	
+	void cor (char F, L):
 
-    class Motor : Servo{
-       public:
-	      uint8_t conectar(int pin);
-	      void girar(int angulo);
-    };
-    
+	void limpatela();
+	
+	void pausa();
+
 #endif
