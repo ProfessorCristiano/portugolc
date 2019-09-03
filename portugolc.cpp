@@ -19,9 +19,9 @@ void limpatela(){
 
 void cor (char F, L)
 {
-	string cm;
-	//str(cm)
-	//system("color ","F","L")
+	char cm[10]="color ";
+	strcat(cm, F, " ", L)
+	system(cm)
 }
 
 
