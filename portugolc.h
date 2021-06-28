@@ -27,5 +27,7 @@
 	void limpatela();
 	
 	void pausa();
+        
+        void brazil();
 
 #endif
