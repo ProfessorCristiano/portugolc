@@ -10,14 +10,14 @@ void espera(unsigned long mseconds){
 	clock_t goal = mseconds + clock();
     while (goal > clock());;
 }
-void brazil (){
+void brazil(){
 	setlocale(LC_ALL,"");
 }
 void limpatela(){
 	system("cls");
 }
 
-void cor (char F, L)
+void cor(char F, L)
 {
 	char cm[10]="color ";
 	strcat(cm, F, " ", L)
