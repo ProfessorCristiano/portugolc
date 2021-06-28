@@ -7,7 +7,7 @@
     #define senao     else
     #define repita(x) for (int _Iot_counter=0; _Iot_counter < x ; _Iot_counter++)
     #define para for
-    #define while enquanto
+    #define enquanto while
     #define faca do
     #define escolha switch
     #define caso case
