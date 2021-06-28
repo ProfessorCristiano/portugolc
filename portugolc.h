@@ -18,6 +18,10 @@
     #define caractere char
     #define cadeia string
     #define pula endl
+    #define E &&
+    #define OU ||
+    #define NAO !
+
     
 
 	void espera(unsigned long mseconds);
