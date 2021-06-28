@@ -26,7 +26,7 @@
 
 	void espera(unsigned long mseconds);
 	
-	void cor (char F, L):
+	void cor (char F, L);
 
 	void limpatela();
 	
